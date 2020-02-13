@@ -153,11 +153,13 @@ WHERE city='Calgary';
 -- 2.Find the birthdate for the youngest employee.
 
 SELECT * FROM employee
-ORDER BY birth_date DESC LIMIT 1;
+ORDER BY birth_date DESC 
+LIMIT 1;
 
 -- 3.Find the birthdate for the oldest employee.
 SELECT * FROM employee
-ORDER BY birth_date ASC LIMIT 1;
+ORDER BY birth_date ASC 
+LIMIT 1;
 
 -- 4.Find everyone that reports to Nancy Edwards (Use the ReportsTo column).
 -- You will need to query the employee table to find the Id for Nancy Edwards
